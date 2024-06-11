@@ -1,0 +1,54 @@
+{
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "%USERPROFILE%\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "%USERPROFILE%\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    },
+
+    "[python]": {
+        "editor.formatOnType": true
+    },
+
+    "monkeyC.developerKeyPath": "C:\\Users\\Kenneth\\Development\\MonkeyC\\developer_key",
+
+    "blender.executables": [
+        {
+            "path": "c:\\Program Files\\Blender Foundation\\Blender 4.1\\blender.exe",
+            "name": "",
+            "isDebug": false
+        },
+        {
+            "path": "c:\\Program Files\\Blender Foundation\\Blender 4.0\\blender.exe",
+            "name": "",
+            "isDebug": false
+        },
+    ],
+
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+
+    "breadcrumbs.enabled": true,
+
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.tabs.enabled": false,
+
+    "python.defaultInterpreterPath": "~/miniconda3/python.exe",
+    "python.condaPath": "~/miniconda3/Scripts/conda.exe",
+
+    "zig.path": "",
+    "zig.zls.path": "~\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe",
+    "zig.initialSetupDone": true,
+
+    "git.confirmSync": false,
+
+    "window.commandCenter": false,
+
+    "workbench.editor.showTabs": "single",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.editorActionsLocation": "hidden",
+
+}
