@@ -1,4 +1,19 @@
 {
+    "fileHeaderComment.parameter": {
+        "*": {
+            "license" : [
+                "This software is(c) Xnovo Technology ApS ${year}. All use is subject to",
+                " separate license agreement."
+        ],
+            "author" : "K. Nielsen"
+        }
+    },
+    "fileHeaderComment.template":{
+        "*":[
+            "${commentprefix} ${license}",
+            "${commentprefix} Created by ${author} on ${date} "
+        ]
+    },
     "files.exclude": {
         "**/*.egg-info": true, 
         "**/__pycache__": true,             
