@@ -76,12 +76,14 @@
   
     // EXTRA
     {
-      
-    }
-    {
       "key": "ctrl+shift+5",
       "command": "editor.emmet.action.matchTag"
-    }//,
+    },
+    {
+      "key": "ctrl+alt+k",
+      "command": "extension.insertFileHeaderComment"
+    },
+    //,
    // {
     //  "key": "ctrl+z",
      // "command": "workbench.action.toggleZenMode"

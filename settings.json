@@ -1,4 +1,8 @@
 {
+    "files.exclude": {
+        "**/*.egg-info": true, 
+        "**/__pycache__": true,             
+    },
     "vs-kubernetes": {
         "vscode-kubernetes.helm-path.windows": "%USERPROFILE%\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
         "vscode-kubernetes.minikube-path.windows": "%USERPROFILE%\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
@@ -23,6 +27,11 @@
         },
     ],
 
+    "workbench.tree.indent": 30,
+    "workbench.colorCustomizations": {
+        "tree.indentGuidesStroke": "#00ff00"
+    },
+    
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
@@ -32,23 +41,29 @@
     "editor.lineNumbers": "relative",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
+    "explorer.confirmDelete": false,
 
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.tabs.enabled": false,
 
-    "python.defaultInterpreterPath": "~/miniconda3/python.exe",
-    "python.condaPath": "~/miniconda3/Scripts/conda.exe",
+    "cmake.showOptionsMovedNotification": false,
+    "cmake.configureOnOpen": false,
+
+    "python.defaultInterpreterPath": "~/AppData/Local/miniconda3/python.exe",
+    "python.condaPath": "~/AppData/Local/miniconda3/Scripts/conda.exe",
 
     "zig.path": "",
     "zig.zls.path": "~\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe",
     "zig.initialSetupDone": true,
 
     "git.confirmSync": false,
+    "git.enableSmartCommit": true,
 
     "window.commandCenter": false,
 
     "workbench.editor.showTabs": "single",
     "workbench.layoutControl.enabled": false,
     "workbench.editor.editorActionsLocation": "hidden",
+    "redhat.telemetry.enabled": true,
 
 }
